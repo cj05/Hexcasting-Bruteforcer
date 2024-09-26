@@ -166,7 +166,8 @@ print("Generating")
 
 # Put Template Hex Here
 
-generate("eawwaeawawaa", "NORTH_WEST",5,5)
+generate("eaqawqadaqd", "EAST",5,5) # Lava
+# generate("eawwaeawawaa", "NORTH_WEST",5,5) # Altiora
 # generate("qqqqaawawaedd", "NORTH_WEST",5,5) # White Sun Zenith (Regen)  144  permutation
 # generate("waeawaeqqqwqwqqwq", "EAST",5,5) # Greater Sentinel  1440  permutation
 # generate("qeqwqwqwqwqeqaeqeaqeqaeqaqded", "NORTH_EAST",5,5) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)

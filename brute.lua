@@ -52,5 +52,4 @@ while run and index <= total do
         print(pattern[2])
     end
     index = index + 1
-    sleep()
 end
