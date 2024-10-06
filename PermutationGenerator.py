@@ -1,5 +1,5 @@
-N=10
-M=10
+N=11
+M=11
 
 import numpy
 import time
@@ -158,7 +158,9 @@ def dfs(masterpattern,x,y,dir):
         #out(masterpattern)   
         #time.sleep(0.2)
         
-
+def map_array_to_string(int_array):
+    mapping = {0: 'w', 1: 'e', 2: 'd', 3: 's', 4: 'a', 5: 'q'}
+    return ''.join(mapping[i] for i in int_array)
 
 # https://github.com/FallingColors/HexMod/blob/6ca01051cdb7fe2e2a97e5a13a2dc274fed03f53/Common/src/main/java/at/petrak/hexcasting/common/lib/hex/HexActions.java#L295
 
@@ -166,13 +168,16 @@ print("Generating")
 
 # Put Template Hex Here
 
-generate("eaqawqadaqd", "EAST",5,5) # Lava
+# generate("aqqqaqwwaqqqqqeqaqqqawwqwqwqwqwqw", "SOUTH_WEST",1,2) # Phial
+# generate("eaqawqadaqd", "EAST",5,5) # Lava
 # generate("eawwaeawawaa", "NORTH_WEST",5,5) # Altiora
 # generate("qqqqaawawaedd", "NORTH_WEST",5,5) # White Sun Zenith (Regen)  144  permutation
 # generate("waeawaeqqqwqwqqwq", "EAST",5,5) # Greater Sentinel  1440  permutation
-# generate("qeqwqwqwqwqeqaeqeaqeqaeqaqded", "NORTH_EAST",5,5) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
+generate( "eadqqdaqadqqdaawwwwewawqwawdwqwwwqwwwdwewdwwwqwwwqw","WEST",8,3) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
 
 out(masterpattern)
+
+
 
 for x1,y1 in getOriginPoint():
     print(x1,y1)
@@ -200,19 +205,7 @@ for pattern in permutation:
     if pattern[0] == 5:
         os = "[\"NORTH_EAST\""
     os = os+",\""
-    for d in pattern[1:len(pattern)]:
-        if(d == 0):
-            os = os + "w"
-        if(d == 1):
-            os = os + "e"
-        if(d == 2):
-            os = os + "d"
-        if(d == 3):
-            os = os + "s"
-        if(d == 4):
-            os = os + "a"
-        if(d == 5):
-            os = os + "q"
+    os = os + map_array_to_string(pattern[1:len(pattern)])
     os = os+"\"]"
     if i > 0:
         ot = ot + " ,"
