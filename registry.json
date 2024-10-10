@@ -5,5 +5,12 @@
   "Altiora":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/Altiora/list.hexbrute",
   "Lava":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/lava/list.hexbrute",
   "ConsumeWisp":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/consumewisp/list.hexbrute",
-  "Phial":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/list.hexbrute"
+  "Phial":[
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xaa",
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xab",
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xac",
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xad",
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xae",
+    "https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/phial/xaf"
+  ]
 }
