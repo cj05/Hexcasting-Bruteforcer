@@ -168,12 +168,13 @@ print("Generating")
 
 # Put Template Hex Here
 
-# generate("aqqqaqwwaqqqqqeqaqqqawwqwqwqwqwqw", "SOUTH_WEST",1,2) # Phial
+# generate("aqqqaqwwaqqqqqeqaqqqawwqwqwqwqwqw", "SOUTH_WEST",1,2) # Phial, a few million lmao
 # generate("eaqawqadaqd", "EAST",5,5) # Lava
 # generate("eawwaeawawaa", "NORTH_WEST",5,5) # Altiora
 # generate("qqqqaawawaedd", "NORTH_WEST",5,5) # White Sun Zenith (Regen)  144  permutation
+generate("qqqaawawaeqdd", "WEST",5,5) # Blue Sun Zenith (Night Vision)  144  permutation
 # generate("waeawaeqqqwqwqqwq", "EAST",5,5) # Greater Sentinel  1440  permutation
-generate( "eadqqdaqadqqdaawwwwewawqwawdwqwwwqwwwdwewdwwwqwwwqw","WEST",8,3) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
+# generate( "eadqqdaqadqqdaawwwwewawqwawdwqwwwqwwwdwewdwwwqwwwqw","WEST",8,3) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
 
 out(masterpattern)
 
