@@ -1,5 +1,5 @@
-N=11
-M=11
+N=20
+M=20
 
 import numpy
 import time
@@ -16,7 +16,7 @@ import tkinter
 
 m = tkinter.Tk()
 
-canvas=tkinter.Canvas(m, width=500, height=300)
+canvas=tkinter.Canvas(m, width=1500, height=900)
 
 canvas.pack()
 
@@ -176,8 +176,10 @@ print("Generating")
 # generate("qqqaawawaeqdd", "WEST",5,5) # Blue Sun Zenith (Night Vision)  72  permutation
 # generate("qqaawawaeqqdd", "SOUTH_WEST",2,2)  # Black Sun Zenith (Absorbtion)  72  permutation
 # generate("qaawawaeqqqdd","SOUTH_EAST",2,2)  # Red Sun Zenith (Haste)  72  permutation
-generate("aawawaeqqqqdd", "EAST",2,2)  # Green Sun Zenith (Strength)  72  permutation
+# generate("aawawaeqqqqdd", "EAST",2,2)  # Green Sun Zenith (Strength)  72  permutation
 
+
+generate("wwwqqqwwwqqeqqwwwqqwqqdqqqqqdqq", "EAST",7,7) # GTP  3168  permutation
 # generate("waeawaeqqqwqwqqwq", "EAST",5,5) # Greater Sentinel  1440  permutation
 # generate("eadqqdaqadqqdaawwwwewawqwawdwqwwwqwwwdwewdwwwqwwwqw","WEST",8,3) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
 
