@@ -1,6 +1,9 @@
 {
-  "WSZ":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/wsz/list.hexbrute",
-  "BSZ":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/bsz/list.hexbrute",
+  "WhiteSunZenith":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/wsz/list.hexbrute",
+  "BlueSunZenith":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/bsz/list.hexbrute",
+  "BlackSunZenith":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/ksz/list.hexbrute",
+  "RedSunZenith":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/rsz/list.hexbrute",
+  "GreenSunZenith":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/rsz/list.hexbrute",
   "FlayMind":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/Brainsweep/list.hexbrute",
   "Gate":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/gate/list.hexbrute",
   "Altiora":"https://raw.githubusercontent.com/cj05/Hexcasting-Bruteforcer/refs/heads/main/repo/Altiora/list.hexbrute",
