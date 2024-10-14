@@ -178,8 +178,12 @@ print("Generating")
 # generate("qaawawaeqqqdd","SOUTH_EAST",2,2)  # Red Sun Zenith (Haste)  72  permutation
 # generate("aawawaeqqqqdd", "EAST",2,2)  # Green Sun Zenith (Strength)  72  permutation
 
+# generate("eeewwweeewwaqqddqdqd", "EAST",7,7) # Dispel Rain
+generate("wwweeewwweewdawdwad","WEST",7,7) # Summon Rain
 
-generate("wwwqqqwwwqqeqqwwwqqwqqdqqqqqdqq", "EAST",7,7) # GTP  3168  permutation
+# generate("waeawaeqqqwqwqqwq", "EAST",7,7) # Greater Sentinel
+
+# generate("wwwqqqwwwqqeqqwwwqqwqqdqqqqqdqq", "EAST",7,7) # GTP  3168  permutation
 # generate("waeawaeqqqwqwqqwq", "EAST",5,5) # Greater Sentinel  1440  permutation
 # generate("eadqqdaqadqqdaawwwwewawqwawdwqwwwqwwwdwewdwwwqwwwqw","WEST",8,3) # Mind Flay  46288  permutation (Not Recommended, Too Big, also you should have found it already, turtle needs mindsplice)
 
